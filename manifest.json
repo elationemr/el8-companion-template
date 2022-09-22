@@ -13,7 +13,7 @@
     ],
     "web_accessible_resources": [
 	{
-	    "resources": ["src/popup.html"],
+	    "resources": ["src/popup.html", "src/slide-in-panel/index.html", "src/slide-in-panel/css/reset.css", "src/slide-in-panel/css/style.css", "src/slide-in-panel/css/demo.css", "src/slide-in-panel/js/main.js"],
 	    "matches": ["http://localhost/*"]
 	}
     ],

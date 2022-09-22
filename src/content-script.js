@@ -17,7 +17,7 @@ iframe.style.top = "0px";
 iframe.style.right = "0px";
 iframe.style.zIndex = "9000000000000000000";
 iframe.frameBorder = "none"; 
-iframe.src = chrome.runtime.getURL("src/popup.html")
+iframe.src = chrome.runtime.getURL("src/slide-in-panel/index.html")
 
 document.body.appendChild(iframe);
 
