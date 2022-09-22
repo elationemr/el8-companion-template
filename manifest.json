@@ -11,12 +11,8 @@
         "http://localhost/patient/*"
       ],
       "run_at": "document_idle",
-      "css": [
-        "src/css/styles.css"
-      ],
-      "js": [
-        "src/content-script.js"
-      ]
+      "css": ["src/css/styles.css"],
+      "js": ["src/content-script.js"]
     }
   ],
   "web_accessible_resources": [
@@ -29,15 +25,8 @@
         "src/slide-in-panel/css/demo.css",
         "src/slide-in-panel/js/main.js"
       ],
-      "matches": [
-        "http://localhost/*"
-      ]
+      "matches": ["http://localhost/*"]
     }
   ],
-  "permissions": [
-    "storage",
-    "activeTab",
-    "tabs",
-    "scripting"
-  ]
+  "permissions": ["storage", "activeTab", "tabs", "scripting"]
 }

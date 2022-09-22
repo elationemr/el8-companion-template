@@ -12,7 +12,7 @@
   position: relative;
 }
 .cd-nugget-info::after {
-  content: '';
+  content: "";
   position: absolute;
   display: inline-block;
   top: 16px;
