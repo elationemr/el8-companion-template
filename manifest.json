@@ -1,21 +1,43 @@
 {
-    "name": "Elation Companion Example",
-    "description": "Start building an Elation Companion!",
-    "version": "1.0",
-    "manifest_version": 3,
-    "content_scripts": [
-	{
-	    "matches": ["https://*.elationemr.com/patient/*", "http://127.0.0.1/patient/*", "http://localhost/patient/*"],
-	    "run_at": "document_idle",
-	    "css": ["src/css/styles.css"],
-	    "js": ["src/content-script.js"]
-	}
-    ],
-    "web_accessible_resources": [
-	{
-	    "resources": ["src/popup.html", "src/slide-in-panel/index.html", "src/slide-in-panel/css/reset.css", "src/slide-in-panel/css/style.css", "src/slide-in-panel/css/demo.css", "src/slide-in-panel/js/main.js"],
-	    "matches": ["http://localhost/*"]
-	}
-    ],
-    "permissions": ["storage", "activeTab", "tabs", "scripting"]
+  "name": "Elation Companion Example",
+  "description": "Start building an Elation Companion!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.elationemr.com/patient/*",
+        "http://127.0.0.1/patient/*",
+        "http://localhost/patient/*"
+      ],
+      "run_at": "document_idle",
+      "css": [
+        "src/css/styles.css"
+      ],
+      "js": [
+        "src/content-script.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/popup.html",
+        "src/slide-in-panel/index.html",
+        "src/slide-in-panel/css/reset.css",
+        "src/slide-in-panel/css/style.css",
+        "src/slide-in-panel/css/demo.css",
+        "src/slide-in-panel/js/main.js"
+      ],
+      "matches": [
+        "http://localhost/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "scripting"
+  ]
 }
